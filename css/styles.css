@@ -84,10 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #testimonial-slider .owl-item:nth-child(2n) .testimonial-wrapp .quoted,
 #testimonial-slider .owl-item:nth-child(2n) .testimonial-wrapp:hover .testimonial-text{
-   background: #e26ed8;
+   background: #d4e211;
 }
 .testimonial-wrapp:hover .testimonial-text{
-   background: #e4e41f;
+   background: #51efea;
    color: #fff;
 }
 
