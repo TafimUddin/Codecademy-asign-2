@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codecademy</title>
+    <!-- style css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- style css end -->
      <!-- font awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <!-- font awesome end -->
-     <!-- css link start -->
+     <!-- Boot css link start -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-     <!-- css link end -->
+     <!-- Boot css link end -->
 </head>
 <body>
     <!-- nav start -->
-    <nav class="navbar navbar-expand-lg pt-3">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#"><span class="text-danger fs-2 fw-bold">Codcademy</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,35 +62,35 @@
    
 <main>
     <!-- carousel slide  -->
-        <div id="carouselExampleDark" class="carousel carousel-dark slide container pt-5" data-bs-ride="carousel">
+        <div id="carouselExampleDark" class="carousel  carousel-dark slide container" data-bs-ride="carousel">
             <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-inner rounded-4">
+            <div class="carousel-item active" data-bs-interval="2000">
                 <img src="images/cover/cover11.png" class="d-block img-fluid" alt="...">
-                <div class="carousel-caption d-none d-md-block text-light mb-5">
-                <h1 class="fs-1 fw-bold">Join the millions learning to <span class="fs-1 fw-bold text-danger">Code with Codecademy.</span></h1>
-                <p class="text-light">Master your language with lessons, quizzes, and projects designed for real-life. <br> Create portfolio projects that <br> showcase  your new skills to help land your dream job.</p>
+                <div class="carousel-caption d-md-block text-light ">
+                <h1 class="fs-1  text-danger fw-bold">Join the millions learning to Code with Codecademy. </h1>
+                <p class="text-light">Master your language with lessons, quizzes, and projects designed for real-life. Create portfolio projects  your dream job.</p>
                 <a href="#" class="btn btn-primary px-5 text-light">Enroll Now</a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="images/cover/cover12.png" class="d-block img-fluid" alt="...">
-                <div class="carousel-caption d-none d-md-block text-light mb-5">
-                  <h1 class="fs-1 fw-bold">Get Up to Date With <span class="fw-bold text-danger">Codecademy[{#}]</h1>
-                  <p class="text-light">Master your language with lessons, quizzes, and projects designed for real-life. <br> Create portfolio projects that <br> showcase  your new skills to help land your dream job.</p>
+                <div class="carousel-caption   d-md-block text-light">
+                  <h1 class="fs-1 fw-bold text-danger">Get Up to Date With Codecademy[{#}]</h1>
+                  <p class="text-light">Master your language with lessons, quizzes, and projects designed for real-life.Create portfolio projects that shownd your dream job.</p>
                     <a href="#" class="btn btn-primary px-5 text-light">Get Course</a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="images/cover/cover13.png" class="d-block img-fluid" alt="...">
-                <div class="carousel-caption d-none d-md-block text-light mb-5">
+                <div class="carousel-caption justify-content-center align-content-center   d-md-block text-light">
                   <h1 class="fs-1 text-danger fw-bold">Learn computer science.
                     Change the world. </h1>
-                  <p class="text-danger">Coding is basically the computer language used to develop apps, websites, and software. Without it, we’d have none of the most popular technology we’ve come to rely on such as Facebook, our smartphones, </p>
+                  <p class="text-danger">Coding is basically the computer language used to develop apps, websites, and software. Without it, s, </p>
                     <a href="#" class="btn btn-primary px-5 text-light">Continue Course</a>
                 </div>
             </div>
@@ -231,29 +234,29 @@
                   <div class="col">
                     <div class="card mb-3">
                         <div class="row g-0">
-                          <div class="col-md-4">
+                          <div class="col-md-4 flex-row-reverse">
                             <img src="images/working.png" class="img-fluid rounded-start h-100" alt="...">
                           </div>
-                          <div class="col-md-8">
+                          <div class="col-md-8  ">
                             <div class="card-body p-5">
                               <h2 class="card-title fs-1 fw-bold">Explore The elearning<br>Institute</h2>
                               <p class="card-text text-secondary">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised wm Ipsum, you need to be sure. Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
                               <!-- gutter react -->
-                              <div class="container px-4 text-center">
+                              <div class="container px-4  text-center">
                                 <div class="row gx-5">
-                                  <div class="col">
+                                  <div class="col col-md-0">
                                    <div class="p-3">
                                     <h2 class="fs-1 fw-bold">3.2k+</h2>
                                     <p class="text-secondary">Online Course</p>
                                     </div>
                                   </div>
-                                  <div class="col">
+                                  <div class="col col-md-0">
                                     <div class="p-3">
                                         <h2 class="fs-1 fw-bold">3.2k+</h2>
                                     <p class="text-secondary">Online Course</p>
                                     </div>
                                   </div>
-                                  <div class="col">
+                                  <div class="col col-md-0">
                                     <div class="p-3">
                                         <h2 class="fs-1 fw-bold">3.2k+</h2>
                                     <p class="text-secondary">Online Course</p>
@@ -277,11 +280,11 @@
             <div class="container text-center bg-primary  rounded-2">
                 <div class="row">
                   <div class="col">
-                     <h2 class="fs-1 fw-bold text-light pt-5">What’s your goal?</h2>
+                     <h2 class="fs-1 fw-bold text-light pt-5">What's your goal?</h2>
                      <p class="text-light pb-5">It is a longa long established fact Lorem ipsum dolor sit amet.
                          that a reader will be distracted by   looking at its layout.</p>
                   </div>
-                  <div class="col p-5">
+                  <div class="col pt-sm-5 pt-5">
                     <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Sign Up Now</button>
                   </div>
                 </div>
@@ -370,7 +373,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="pt-5 text-center"><button type="button" class="btn btn-info text-light fw-bold">View All</button></div>
+                    <div class="pt-5 text-center d-lg-none"><button type="button" class="btn btn-info text-light fw-bold">View All</button></div>
                   </div>
                 </div>
               </div>
@@ -389,6 +392,68 @@
                     </div>
                 </div>
         <!-- faq intro end -->
+                <!-- testimonial setction start -->
+                <section id="our-testimonial" class="padding">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12 col-sm-12 text-center">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 col-sm-12">
+                        <div id="testimonial-slider" class="owl-carousel">
+                          <div class="item">
+                            <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                              <div class="testimonial-text">
+                                <p class="bottom40">Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. </p>
+                              </div>
+                              <div class="testimonial-photo"><img alt="" src="images/student/std1.png"></div>
+                              <h4 class="darkcolor">Zara Khan</h4>
+                              <small class="defaultcolor">Frontend Web Developer</small> 
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                              <div class="testimonial-text">
+                                <p class="bottom40">React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.</p>
+                              </div>
+                              <div class="testimonial-photo"><img alt="" src="images/student/std2.png"></div>
+                              <h4 class="darkcolor">Natalia Habib</h4>
+                              <small class="defaultcolor">React Expert</small> </div>
+                          </div>
+                          <div class="item">
+                            <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                              <div class="testimonial-text">
+                                <p class="bottom40">Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+                              </div>
+                              <div class="testimonial-photo"><img alt="" src="images/student/std3.png"></div>
+                              <h4 class="darkcolor">Zubin Akther</h4>
+                              <small class="defaultcolor">Java Developert</small> </div>
+                          </div>
+                          <div class="item">
+                            <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                              <div class="testimonial-text">
+                                <p class="bottom40">Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. </p>
+                              </div>
+                              <div class="testimonial-photo"><img alt="" src="images/student/student-5.png"></div>
+                              <h4 class="darkcolor">Alex Benjamin</h4>
+                              <small class="defaultcolor">Python Developer</small> </div>
+                          </div>
+                          <div class="item">
+                            <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                              <div class="testimonial-text">
+                                <p class="bottom40">MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. </p>
+                              </div>
+                              <div class="testimonial-photo"><img alt="" src="images/student/student-6.png"></div>
+                              <h4 class="darkcolor">Liza Sarkar</h4>
+                              <small class="defaultcolor">Mongo DB Developers</small> </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- testimonial section end -->
                 <!-- Main FAQ start-->
                 <div class="d-flex justify-content-center">
                     <div class="accordion w-75 col-md-w-50" id="accordionPanelsStayOpenExample">
@@ -520,6 +585,9 @@
     <!-- js link start -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <!-- js link end -->
-    
+    <script src="js/jquery-3.6.0.min.js"></script> 
+    <!--Owl Slider--> 
+    <script src="js/owl.carousel.min.js"></script> 
+    <script src="js/functions.js"></script>
 </body>
 </html>
